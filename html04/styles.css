@@ -1,0 +1,68 @@
+@font-face{
+    font-family: "Plouf";
+    src: url("fonts/Barlow-elasticc.otf");
+}
+
+@font-face{
+    font-family: "DIN";
+    src: url("fonts/Dinish-Regular.woff2");
+}
+
+@font-face{
+    font-family: "DIN";
+    src: url("fonts/Dinish-Italic.woff2");
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "DIN";
+    src: url("fonts/Dinish-Bold.woff2");
+    font-weight: 800;
+}
+
+
+
+
+
+
+body{
+    font-family:"DIN";
+}
+
+h1{
+    font-size:5em;
+    font-weight: 400;
+    font-style:italic;
+}
+
+.animal{
+    width:20vw;
+    height:100px;
+    display: inline-block;
+    margin: 5px;
+    position:fixed;
+}
+
+#chat{
+    background-color: #FF0044;
+    right:20px;
+    top:30px;
+    transform: rotate(-30deg);
+}
+
+#chien{
+    background-color: #1d00ff;
+    right:0;
+    bottom:0;
+}
+
+#rat{
+    background-color: #00ffeb;
+    transform: rotate(50deg);
+    right:120px;
+    top:230px;
+}
+
+#phoque{
+    background-color: #ffc400;
+}
