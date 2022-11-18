@@ -20,19 +20,13 @@
     font-weight: 800;
 }
 
-
-
-
-
-
 body{
     font-family:"DIN";
 }
 
 h1{
     font-size:5em;
-    font-weight: 400;
-    font-style:italic;
+    font-style: italic;
 }
 
 .animal{
