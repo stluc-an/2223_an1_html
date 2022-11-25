@@ -24,7 +24,9 @@ a:visited{
     width:30vw;
     height:42vh;
     transition: all 2s;
-    
+    animation-name: animation-ombre;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 #monImage:hover{
@@ -48,4 +50,12 @@ a:visited{
   30% { top: 50px; }
   68% { left: 50px; width:20vw;}
   100% { top: 100px; left: 100%; }
+}
+
+@keyframes animation-ombre{
+    0%{filter:drop-shadow(-25px 0 10px blue);}
+    25%{filter:drop-shadow(0 -25px 10px blue);}
+    50%{filter:drop-shadow(25px 0 10px blue);}
+    75%{filter:drop-shadow(0 25px 10px blue);}
+    100%{filter:drop-shadow(-25px 0 10px blue);}
 }
