@@ -1,0 +1,51 @@
+p{
+    font-size:4em;
+}
+
+a:link{
+    text-decoration: none;
+    color:cadetblue;
+    transition: all 1s;
+}
+
+a:hover{
+    background-color:yellow;
+    font-size:1.5em;
+}
+
+a:visited{
+    color:#CCC;
+}
+
+#monImage{
+    background-image: url(owl.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:30vw;
+    height:42vh;
+    transition: all 2s;
+    
+}
+
+#monImage:hover{
+    background-image: url(cat.png);
+    height:50vh;
+}
+
+#chatnime{
+    position: fixed;
+    right:0;
+    top:0;
+    width:10vw;
+    animation-name: animation-chat;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes animation-chat {
+  0% { top: 0; left: 0; }
+  30% { top: 50px; }
+  68% { left: 50px; width:20vw;}
+  100% { top: 100px; left: 100%; }
+}
